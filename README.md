@@ -8,6 +8,8 @@ KCleaner is a free, open-source macOS utility by [Engagetal Solutions](https://e
 
 [Download the DMG](https://github.com/engagetal/KCleaner/releases/latest) · [Download source ZIP](https://github.com/engagetal/KCleaner/archive/refs/heads/main.zip) · [Report an issue](https://github.com/engagetal/KCleaner/issues)
 
+[![GitHub-reported DMG downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fengagetal%2FKCleaner%2Freleases%2Ftags%2Fv1.0.0&query=%24.assets%5B%3F%28%40.name%3D%3D%22KCleaner-1.0.dmg%22%29%5D.download_count&label=v1.0+DMG+downloads&color=2ea44f&cacheSeconds=300)](https://api.github.com/repos/engagetal/KCleaner/releases/tags/v1.0.0)
+
 ![MIT license](https://img.shields.io/badge/license-MIT-green)
 ![macOS 13 or later](https://img.shields.io/badge/macOS-13%2B-blue)
 ![Apple Silicon](https://img.shields.io/badge/chip-Apple%20Silicon-black)
@@ -60,6 +62,8 @@ open build/KCleaner.app
 `bash build.sh --install` replaces `/Applications/KCleaner.app` and launches it. Quit existing copies first. After rebuilding, macOS may require removing and re-adding the app under Accessibility.
 
 ## DMG download count
+
+The badge above displays the unrounded count for the v1.0 DMG. Badge images are cached and may lag; click the badge for the GitHub API response or run the script for a fresh query.
 
 GitHub maintains an integer `download_count` for each release asset. The exact GitHub-reported count is available via the [release API](https://api.github.com/repos/engagetal/KCleaner/releases/tags/v1.0.0): find the asset named `KCleaner-1.0.dmg` and its `download_count`.
 
